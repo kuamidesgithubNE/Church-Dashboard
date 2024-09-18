@@ -49,10 +49,10 @@ const Header = () => {
           {showProfileDropdown && (
             <div className="dropdown profile-dropdown">
               <Link to="/profile" className="link">
-                User Profile
+                <i className="fa fa-user-circle"></i> User Profile
               </Link>
               <a href="#logout" onClick={logout}>
-                Logout
+                <i className="fa fa-sign-out-alt"></i> Logout
               </a>
             </div>
           )}
